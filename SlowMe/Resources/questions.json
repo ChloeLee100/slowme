@@ -1,0 +1,6802 @@
+[
+  {
+    "id": "q0001",
+    "prompt": "At a cafe, what do you order most often?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Your regular order",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "A seasonal special",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "The simplest drink",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "A new flavour",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "The highest-rated classic",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "novelty"
+  },
+  {
+    "id": "q0002",
+    "prompt": "What is your favourite fruit?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Apple",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Banana",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Grape",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Cherry",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Mango",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0003",
+    "prompt": "Which statement sounds closest to you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "I usually stick with what works",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "I like trying new things first",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "I feel calm with familiar choices",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "I get energised by new experiences",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "I prefer reliable options",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "novelty"
+  },
+  {
+    "id": "q0004",
+    "prompt": "Which drink sounds best right now?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Water",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Green tea",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Coffee",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Sparkling water",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Hot chocolate",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "comfort"
+  },
+  {
+    "id": "q0005",
+    "prompt": "When you see a brand-new app trend, what do you do?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Wait and watch",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Download it today",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Read reviews first",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Try it for fun",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Ask friends if it’s good",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "novelty"
+  },
+  {
+    "id": "q0006",
+    "prompt": "If you could snack right now, what would it be?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Popcorn",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Chocolate",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Nuts",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Chips",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Fruit",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0007",
+    "prompt": "Your best weekends are usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Comfortable and familiar",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Full of new experiences",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Simple and steady",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "A bit adventurous",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Predictable and calm",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "novelty"
+  },
+  {
+    "id": "q0008",
+    "prompt": "What dessert do you reach for most often?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Cheesecake",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Ice cream",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Brownie",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Fruit tart",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Pudding",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0009",
+    "prompt": "At restaurants, what kind of menu choice do you make most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "My favourite dish",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "The newest item",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "A safe option",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "The chef’s special",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "A proven classic",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "novelty"
+  },
+  {
+    "id": "q0010",
+    "prompt": "For breakfast, what do you enjoy most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Eggs",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Yoghurt",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Toast",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Oats",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Fruit bowl",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0011",
+    "prompt": "How do you feel about routines?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "They make me feel safe",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "They can feel boring",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "I like steady patterns",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "I like changing things up",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "I enjoy predictability",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "novelty"
+  },
+  {
+    "id": "q0012",
+    "prompt": "When dinner is simple, what do you prefer?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Rice bowl",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Pasta",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Soup",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Sandwich",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Noodles",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0013",
+    "prompt": "When choosing a movie, what do you click first?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "A comfort show",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "A brand-new release",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "A familiar genre",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Something totally different",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "A classic recommendation",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "novelty"
+  },
+  {
+    "id": "q0014",
+    "prompt": "Which cuisine do you crave most often?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Korean",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Japanese",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Italian",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Thai",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Mexican",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0015",
+    "prompt": "When life feels uncertain, you prefer to…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Return to a routine",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Try a new approach",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Keep things stable",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Shake things up",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Stick with familiar habits",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "novelty"
+  },
+  {
+    "id": "q0016",
+    "prompt": "When you want comfort food, what helps most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Soup",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Dumplings",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Curry",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Toast",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Fried rice",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "comfort"
+  },
+  {
+    "id": "q0017",
+    "prompt": "In shops, what do you reach for more often?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "A trusted brand",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "A brand you’ve never tried",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "The same item as usual",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "A unique new option",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "A top-rated classic",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "novelty"
+  },
+  {
+    "id": "q0018",
+    "prompt": "If you ate one fruit daily, which would it be?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Apple",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Orange",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Banana",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Blueberries",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Grapes",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0019",
+    "prompt": "In general, you feel most yourself when…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Things are familiar",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Things are fresh and new",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Your day is predictable",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "You’re exploring",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Your routine is steady",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "novelty"
+  },
+  {
+    "id": "q0020",
+    "prompt": "Which vegetable do you actually enjoy?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Broccoli",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Carrot",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Spinach",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Mushroom",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Capsicum",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0021",
+    "prompt": "After a long day, what helps you recover best?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Quiet alone time",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "A catch-up with someone",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "A solo hobby",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "A group activity",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "A calm chat",
+        "pole": "B"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "social_energy"
+  },
+  {
+    "id": "q0022",
+    "prompt": "Which ice cream flavour is your top choice?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Vanilla",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Chocolate",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Strawberry",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Matcha",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Cookies & cream",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0023",
+    "prompt": "Which one fits you better?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "I recharge alone",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "I recharge with people",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "I need personal space",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "I feel lifted by company",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Quiet time restores me",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "social_energy"
+  },
+  {
+    "id": "q0024",
+    "prompt": "What type of tea do you like most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Green tea",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Black tea",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Herbal tea",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Chai",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Matcha",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0025",
+    "prompt": "On a free weekend, what would you rather do?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Stay in and reset",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Go out with friends",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Take a solo walk",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Attend an event",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Have a small meet-up",
+        "pole": "B"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "social_energy"
+  },
+  {
+    "id": "q0026",
+    "prompt": "Which sweet drink would you order?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Bubble tea",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Smoothie",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Milkshake",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Iced chocolate",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Fruit juice",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0027",
+    "prompt": "When you’re stressed, what do you want most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Space and silence",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Support from others",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Time alone",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Company to distract me",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "A quiet moment by myself",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "social_energy"
+  },
+  {
+    "id": "q0028",
+    "prompt": "What coffee style suits you best?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Flat white",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Latte",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Long black",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Cappuccino",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Iced coffee",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0029",
+    "prompt": "When you celebrate a win, what do you do first?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Treat myself quietly",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Tell someone and celebrate",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Enjoy it privately",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Go out with a group",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Share with one person",
+        "pole": "B"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "social_energy"
+  },
+  {
+    "id": "q0030",
+    "prompt": "Which snack texture do you love most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Crunchy",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Chewy",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Creamy",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Flaky",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Juicy",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "sensory"
+  },
+  {
+    "id": "q0031",
+    "prompt": "Your ideal evening feels like…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Peaceful and private",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Social and lively",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Simple and solo",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Shared with others",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Quiet alone time",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "social_energy"
+  },
+  {
+    "id": "q0032",
+    "prompt": "Which scent feels comforting to you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Vanilla",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Citrus",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Pine",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Fresh laundry",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Rain",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "sensory"
+  },
+  {
+    "id": "q0033",
+    "prompt": "When you feel bored, what do you do most often?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Start a solo task",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Message someone",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Do a solo hobby",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Meet up with people",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Call a friend",
+        "pole": "B"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "social_energy"
+  },
+  {
+    "id": "q0034",
+    "prompt": "Which sound calms you the fastest?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Ocean waves",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Soft rain",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Fire crackle",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Gentle piano",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Birdsong",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "sensory"
+  },
+  {
+    "id": "q0035",
+    "prompt": "In group settings, you usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Listen more than talk",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Feel energised and talkative",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Prefer one-on-one",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Enjoy a bigger group",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Need breaks alone",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "social_energy"
+  },
+  {
+    "id": "q0036",
+    "prompt": "What weather do you enjoy most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Sunny",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Light rain",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Cloudy",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Crisp cold",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Warm breeze",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "weather"
+  },
+  {
+    "id": "q0037",
+    "prompt": "When trying something new, how do you prefer to start?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Try it alone first",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Do it with someone",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Practise privately",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Join a class",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Ask a friend to come",
+        "pole": "B"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "social_energy"
+  },
+  {
+    "id": "q0038",
+    "prompt": "Which season do you feel best in?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Spring",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Summer",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Autumn",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Winter",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Late summer",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "rhythm"
+  },
+  {
+    "id": "q0039",
+    "prompt": "What kind of environment helps you do your best work?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Quiet and independent",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Collaborative and social",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Solo focus time",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Team energy",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Private space",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "social_energy"
+  },
+  {
+    "id": "q0040",
+    "prompt": "Which colour makes you feel calm?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Green",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Blue",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Cream",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Brown",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Grey",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0041",
+    "prompt": "Before a busy week, what do you do first?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Write a checklist",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Take it day by day",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Block time in a calendar",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Decide as you go",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Set priorities in advance",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0042",
+    "prompt": "At home, what lighting do you prefer?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Warm lamp",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Bright daylight",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Soft fairy lights",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Neutral white",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Candles",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0043",
+    "prompt": "Which description feels most like you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "I like structure",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "I like flexibility",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "I plan before I act",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "I decide in the moment",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "A plan makes me calm",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0044",
+    "prompt": "Which room matters most to you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Bedroom",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Kitchen",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Living room",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Bathroom",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Study",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "home"
+  },
+  {
+    "id": "q0045",
+    "prompt": "When you go out, what feels better?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Knowing the plan",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Improvising",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Booking ahead",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Choosing on the day",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Preparing early",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0046",
+    "prompt": "What home vibe do you like?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Minimal",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Cosy",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Modern",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Playful",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Classic",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0047",
+    "prompt": "Your routine is usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Consistent",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Flexible",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Scheduled",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Changeable",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Structured",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0048",
+    "prompt": "Which desk vibe helps you focus?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Clear desk",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Decorated desk",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "One big screen",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Laptop only",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Two screens",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "work_style"
+  },
+  {
+    "id": "q0049",
+    "prompt": "When starting a project, what’s your first move?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Break it into steps",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Start and adjust",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Make a timeline",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Jump straight in",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Write requirements",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0050",
+    "prompt": "Which stationery item do you love using?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Gel pen",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Mechanical pencil",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Highlighter",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Sticky notes",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Notebook",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "tools"
+  },
+  {
+    "id": "q0051",
+    "prompt": "When travel is coming up, you prefer…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Itinerary and bookings",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Wandering and surprises",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Research first",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Spontaneous stops",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Plans set early",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0052",
+    "prompt": "When you want to create, what do you do?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Sketching",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Photography",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Writing",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Crafting",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Designing UI",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "creativity"
+  },
+  {
+    "id": "q0053",
+    "prompt": "If plans change suddenly, what do you do?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Re-plan carefully",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Adapt quickly",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Ask for details",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Go with it",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Make a new checklist",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0054",
+    "prompt": "Which hobby would you happily do weekly?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Drawing",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Cooking",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Walking",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Reading",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Gaming",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "hobbies"
+  },
+  {
+    "id": "q0055",
+    "prompt": "A “good day” for you is…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Organised",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Open-ended",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Mapped out",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Loose and flexible",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Prepared",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0056",
+    "prompt": "What type of game do you enjoy?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Cozy sim",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Puzzle",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Adventure",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Racing",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Strategy",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "media"
+  },
+  {
+    "id": "q0057",
+    "prompt": "When shopping, which is most like you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Use a list",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Browse and decide",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Compare options",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Choose what looks good",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Buy what you planned",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0058",
+    "prompt": "Which story vibe do you like most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Slice of life",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Mystery",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Fantasy",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Romance",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "True stories",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "media"
+  },
+  {
+    "id": "q0059",
+    "prompt": "How do you prefer goals?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Clear steps",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Room to adjust",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Predictable schedule",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Spontaneous moments",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Preparedness",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0060",
+    "prompt": "What music vibe do you return to often?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Lo-fi",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Pop",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Indie",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Classical",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "R&B",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "music"
+  },
+  {
+    "id": "q0061",
+    "prompt": "When buying something, what do you rely on most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Comparing features",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "A strong feeling",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Reading reviews",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Instant liking",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Price/value",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "decision_style"
+  },
+  {
+    "id": "q0062",
+    "prompt": "Where do you recharge best?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "A cosy room",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "A cafe",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "A park",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "A library",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "A quiet walk",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "recharge"
+  },
+  {
+    "id": "q0063",
+    "prompt": "Which sounds most accurate?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "I decide with logic",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "I decide with gut feeling",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Evidence matters most",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Instinct matters most",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "I weigh pros and cons",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "decision_style"
+  },
+  {
+    "id": "q0064",
+    "prompt": "Which outdoor activity sounds fun?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Picnic",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Hiking",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Beach walk",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Cycling",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Photography walk",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "lifestyle"
+  },
+  {
+    "id": "q0065",
+    "prompt": "When solving a problem, what do you do first?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "List facts",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Follow your feeling",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Break it down",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Try a quick fix",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Research options",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "decision_style"
+  },
+  {
+    "id": "q0066",
+    "prompt": "What indoor activity feels relaxing?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Baking",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Journaling",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Watching a show",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Tidying",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Crafting",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "lifestyle"
+  },
+  {
+    "id": "q0067",
+    "prompt": "In decisions, you trust…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Data",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Intuition",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Experience",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Vibes",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Logic",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "decision_style"
+  },
+  {
+    "id": "q0068",
+    "prompt": "What does your ideal Sunday look like?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Rest day",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Prep day",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Family day",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Creative day",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Adventure day",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "lifestyle"
+  },
+  {
+    "id": "q0069",
+    "prompt": "When choosing food, what guides you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Health/value balance",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Cravings",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Practicality",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "What looks best",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "What fits your plan",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "decision_style"
+  },
+  {
+    "id": "q0070",
+    "prompt": "How would you spend a perfect Friday night?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Home meal",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Dessert outing",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Movie night",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Friends time",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Early sleep",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "lifestyle"
+  },
+  {
+    "id": "q0071",
+    "prompt": "You feel confident when you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Have evidence",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Feel sure inside",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "See clear pros/cons",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Feel excited",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Have a solid plan",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "decision_style"
+  },
+  {
+    "id": "q0072",
+    "prompt": "How do you like to learn new things?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Watching videos",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Reading guides",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Hands-on practice",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Taking notes",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Teaching someone",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "learning"
+  },
+  {
+    "id": "q0073",
+    "prompt": "If two options are similar, what do you do?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Choose best value",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Choose what you like",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Look for more info",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Choose what feels nicer",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Use a rule to decide",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "decision_style"
+  },
+  {
+    "id": "q0074",
+    "prompt": "Which note-taking style suits you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Typed notes",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Handwritten notes",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Mind map",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Flashcards",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Minimal bullets",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "learning"
+  },
+  {
+    "id": "q0075",
+    "prompt": "Most of the time, you are…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Analytical",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Intuitive",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Practical",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Emotion-led",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Rational",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "decision_style"
+  },
+  {
+    "id": "q0076",
+    "prompt": "What motivates you the most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Progress",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Recognition",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Curiosity",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Stability",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Helping others",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "motivation"
+  },
+  {
+    "id": "q0077",
+    "prompt": "When you’re unsure, what happens next?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Research more",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Wait for a feeling",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Ask for facts",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Follow instinct",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Write pros/cons",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "decision_style"
+  },
+  {
+    "id": "q0078",
+    "prompt": "What drains you fastest?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Noise",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Clutter",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Crowds",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Uncertainty",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Conflict",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "stressors"
+  },
+  {
+    "id": "q0079",
+    "prompt": "Your decision-making is usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Systematic",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Feeling-based",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Reasoned",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Instinctive",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Practical",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "decision_style"
+  },
+  {
+    "id": "q0080",
+    "prompt": "What energises you most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Achievement",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Creative flow",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Good company",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Fresh air",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Learning",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "motivation"
+  },
+  {
+    "id": "q0081",
+    "prompt": "During work or study, what pace feels best?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Slow and steady",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Fast and focused",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Careful pacing",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Quick bursts",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Unhurried progress",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "pace"
+  },
+  {
+    "id": "q0082",
+    "prompt": "What matters most to you right now?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Peace of mind",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Time",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Relationships",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Health",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Independence",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "values"
+  },
+  {
+    "id": "q0083",
+    "prompt": "Which describes your natural pace?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Unhurried",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Fast-paced",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Steady",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Quick",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Deliberate",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "pace"
+  },
+  {
+    "id": "q0084",
+    "prompt": "Which boundary do you protect most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "My time",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "My sleep",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "My space",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "My focus",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "My peace",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "boundaries"
+  },
+  {
+    "id": "q0085",
+    "prompt": "How do you usually eat your meals?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Slowly",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Quickly",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Take my time",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Finish fast",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Enjoy each bite",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "pace"
+  },
+  {
+    "id": "q0086",
+    "prompt": "What do you want more of this year?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Confidence",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Rest",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Direction",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Connection",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Discipline",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "growth"
+  },
+  {
+    "id": "q0087",
+    "prompt": "You prefer days that feel…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Calm",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Busy",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Unrushed",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "High-energy",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Simple and slow",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "pace"
+  },
+  {
+    "id": "q0088",
+    "prompt": "Which skill do you want to improve?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Public speaking",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Cooking",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Fitness",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Design",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Time management",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "claim",
+    "dimensionId": "growth"
+  },
+  {
+    "id": "q0089",
+    "prompt": "When replying to messages, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Reply when ready",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Reply quickly",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Respond later",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Respond immediately",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Reply after thinking",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "pace"
+  },
+  {
+    "id": "q0090",
+    "prompt": "Which habit would you like to start?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Daily walk",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Stretching",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Budget tracking",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Reading",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Meal prep",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "habits"
+  },
+  {
+    "id": "q0091",
+    "prompt": "When learning something new, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Go step-by-step",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Push to learn fast",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Prefer steady practice",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Jump in quickly",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Take time to absorb",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "pace"
+  },
+  {
+    "id": "q0092",
+    "prompt": "Which habit would you like to reduce?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Late nights",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Snacking",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Scrolling",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Skipping breakfast",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Overcommitting",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "habits"
+  },
+  {
+    "id": "q0093",
+    "prompt": "When walking, your pace is usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Stroll",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Power-walk",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Slow and relaxed",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Fast and purposeful",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Easy pace",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "pace"
+  },
+  {
+    "id": "q0094",
+    "prompt": "What helps you relax?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Bath/shower",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Stretching",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Tea time",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Slow walk",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Music time",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "comfort"
+  },
+  {
+    "id": "q0095",
+    "prompt": "In general, you prefer…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Quality over speed",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Speed over detail",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Gentle pace",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Fast pace",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Slow consistency",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "pace"
+  },
+  {
+    "id": "q0096",
+    "prompt": "What “small joy” do you notice often?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Warm drink",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Clean sheets",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Good meal",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Nice message",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Quiet moment",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "gratitude"
+  },
+  {
+    "id": "q0097",
+    "prompt": "When doing chores, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Do one thing at a time",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Try to finish quickly",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Go slowly and properly",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Speed through",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Pace yourself with breaks",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "pace"
+  },
+  {
+    "id": "q0098",
+    "prompt": "How do you naturally show kindness?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Listening closely",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Helping with tasks",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Giving advice",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Making someone laugh",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Checking in",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "kindness"
+  },
+  {
+    "id": "q0099",
+    "prompt": "You feel best when you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Have breathing room",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Have momentum",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Slow down",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Move fast",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Take your time",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "pace"
+  },
+  {
+    "id": "q0100",
+    "prompt": "What do you appreciate most in a teammate?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Clear communication",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Reliability",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Creativity",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Patience",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Leadership",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "values"
+  },
+  {
+    "id": "q0101",
+    "prompt": "When a new opportunity appears, you usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Think carefully first",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Say yes quickly",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Ask for details",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Jump in",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Check downsides first",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "risk"
+  },
+  {
+    "id": "q0102",
+    "prompt": "What do you want your future to feel like?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Calm",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Successful",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Free",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Loved",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Adventurous",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "values"
+  },
+  {
+    "id": "q0103",
+    "prompt": "Which one sounds most like you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "I’m careful",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "I’m bold",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "I avoid unnecessary risk",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "I like taking chances",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "I prefer safe choices",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "risk"
+  },
+  {
+    "id": "q0104",
+    "prompt": "Which keepsake would you treasure?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Letter",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Photo album",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Jewellery",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Ticket stub",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Plush toy",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "claim",
+    "dimensionId": "identity"
+  },
+  {
+    "id": "q0105",
+    "prompt": "When trying a new food, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Start with a small bite",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Try it confidently",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Ask what it tastes like",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Order it without overthinking",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Choose something safe",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "risk"
+  },
+  {
+    "id": "q0106",
+    "prompt": "How do you like to keep memories?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Photos",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Journals",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Souvenirs",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Screenshots",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Voice memos",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "identity"
+  },
+  {
+    "id": "q0107",
+    "prompt": "When making big decisions, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Move cautiously",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Move bravely",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Check everything",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Follow courage",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Choose stability",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "risk"
+  },
+  {
+    "id": "q0108",
+    "prompt": "What wallpaper style do you like?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Minimal",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Nature",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Cute character",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Quote",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Photo memory",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0109",
+    "prompt": "In a new place, you usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Observe first",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Explore immediately",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Stay near safe areas",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Wander further",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Look for exits/landmarks",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "risk"
+  },
+  {
+    "id": "q0110",
+    "prompt": "What app style do you prefer?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Simple",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Colourful",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Calm",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Customisable",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Information-rich",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0111",
+    "prompt": "You feel proud when you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Made a wise safe choice",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Took a brave step",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Protected stability",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Tried something scary",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Stayed cautious",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "risk"
+  },
+  {
+    "id": "q0112",
+    "prompt": "What matters most to you in an app?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Speed",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Aesthetics",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Simplicity",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Customisation",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Trust/privacy",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "values"
+  },
+  {
+    "id": "q0113",
+    "prompt": "When buying something expensive, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Wait and compare",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Buy when you want it",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Research a lot",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Decide quickly",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Set a strict budget",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "risk"
+  },
+  {
+    "id": "q0114",
+    "prompt": "What project type do you enjoy most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Building",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Designing",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Researching",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Organising",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Presenting",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "work_style"
+  },
+  {
+    "id": "q0115",
+    "prompt": "Your goals are usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Realistic",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Ambitious",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Safe and steady",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Big and bold",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Low-risk",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "risk"
+  },
+  {
+    "id": "q0116",
+    "prompt": "How do you like to present your work?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Slides",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Demo",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Report",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Short summary",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Visual prototype",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "work_style"
+  },
+  {
+    "id": "q0117",
+    "prompt": "When speaking up, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Prepare your words",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Say it straight away",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Choose timing carefully",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Speak without hesitation",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Wait until you’re sure",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "risk"
+  },
+  {
+    "id": "q0118",
+    "prompt": "What helps you focus best?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Silence",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Lo-fi beats",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Nature sounds",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Instrumental",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Cafe ambience",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "focus"
+  },
+  {
+    "id": "q0119",
+    "prompt": "In general, you are…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Risk-aware",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Risk-taking",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Careful",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Brave",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Cautious",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "risk"
+  },
+  {
+    "id": "q0120",
+    "prompt": "Where do you prefer to study?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Desk at home",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Library",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Cafe",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Bed (cosy)",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Outdoor bench",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "focus"
+  },
+  {
+    "id": "q0121",
+    "prompt": "When choosing a task, you prefer…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Something you’re good at",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Something that stretches you",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "A familiar role",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "A challenging role",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "An easy win",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "comfort_zone"
+  },
+  {
+    "id": "q0122",
+    "prompt": "What exercise do you enjoy?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Walking",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Gym",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Yoga",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Swimming",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Cycling",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "health"
+  },
+  {
+    "id": "q0123",
+    "prompt": "Which describes you better?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "I like comfort",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "I like growth challenges",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "I prefer mastery",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "I enjoy pushing limits",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "I like safe progress",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "comfort_zone"
+  },
+  {
+    "id": "q0124",
+    "prompt": "What movement style do you like?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Stretching",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Strength",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Cardio",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Balance",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Mobility",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "health"
+  },
+  {
+    "id": "q0125",
+    "prompt": "When learning, you usually choose…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Easy practice",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Hard practice",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Basics first",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Advanced challenge",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Repeat what you know",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "comfort_zone"
+  },
+  {
+    "id": "q0126",
+    "prompt": "When do you like to go to bed?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "9–10pm",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "10–11pm",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "11–12am",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "12–1am",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "After 1am",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "rhythm"
+  },
+  {
+    "id": "q0127",
+    "prompt": "You feel satisfied when you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Feel settled",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Overcome something hard",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Keep life stable",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Push through difficulty",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Stay comfortable",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "comfort_zone"
+  },
+  {
+    "id": "q0128",
+    "prompt": "When do you like to wake up?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "5–6am",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "6–7am",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "7–8am",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "8–9am",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "After 9am",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "rhythm"
+  },
+  {
+    "id": "q0129",
+    "prompt": "If you get extra time, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Rest",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Work on a new goal",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Do something cosy",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Try something hard",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Keep it easy",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "comfort_zone"
+  },
+  {
+    "id": "q0130",
+    "prompt": "What do you do first after waking?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Drink water",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Wash face",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Check messages",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Stretch",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Make a plan",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "habits"
+  },
+  {
+    "id": "q0131",
+    "prompt": "Most of the time, you choose…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Comfort",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Challenge",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Familiarity",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Growth",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Ease",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "comfort_zone"
+  },
+  {
+    "id": "q0132",
+    "prompt": "What do you do last before sleep?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Read",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Skincare",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Set alarm",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Tidy room",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Listen to music",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "habits"
+  },
+  {
+    "id": "q0133",
+    "prompt": "When you feel stuck, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Return to what works",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Try a harder step",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Do a small safe action",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Take a bigger step",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Stay in routine",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "comfort_zone"
+  },
+  {
+    "id": "q0134",
+    "prompt": "Which personal rule do you respect most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Be on time",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Be honest",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Be consistent",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Be kind",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Be prepared",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "values"
+  },
+  {
+    "id": "q0135",
+    "prompt": "Your ideal progress is…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Stable and safe",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Difficult but meaningful",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Comfortable",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Challenging",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Gentle and steady",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "comfort_zone"
+  },
+  {
+    "id": "q0136",
+    "prompt": "What do you procrastinate on most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Cleaning",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Emails",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Studying",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Exercise",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Admin tasks",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "habits"
+  },
+  {
+    "id": "q0137",
+    "prompt": "When setting goals, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Set achievable goals",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Set stretch goals",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Keep it realistic",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Aim high",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Choose easy wins",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "comfort_zone"
+  },
+  {
+    "id": "q0138",
+    "prompt": "Which reminder style helps you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Alarm",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Calendar",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Sticky note",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Habit app",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Friend reminder",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0139",
+    "prompt": "You respect yourself when you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Protect your peace",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Face hard things",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Keep stability",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Take challenges",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Choose comfort",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "comfort_zone"
+  },
+  {
+    "id": "q0140",
+    "prompt": "Which tool makes you feel organised?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Calendar",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Notebook",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Whiteboard",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Notes app",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Task board",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "planning"
+  },
+  {
+    "id": "q0141",
+    "prompt": "When you need to say no, you usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Say it clearly",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Soften it kindly",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Be direct",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Use gentle wording",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Explain briefly and clearly",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0142",
+    "prompt": "What reward motivates you most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Nice meal",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "New stationery",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "A day off",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Small purchase",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Long nap",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "reward"
+  },
+  {
+    "id": "q0143",
+    "prompt": "Your communication style is closest to…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Direct",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Gentle",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Straight to the point",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Soft and careful",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Clear and honest",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0144",
+    "prompt": "What do you want to be known for?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Reliability",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Kindness",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Skill",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Calmness",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Creativity",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "identity"
+  },
+  {
+    "id": "q0145",
+    "prompt": "When giving feedback, you prefer to…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Be clear and specific",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Start with encouragement",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Use facts",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Use a kind tone",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Give action steps",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0146",
+    "prompt": "Which bread do you enjoy most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Sourdough",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Brioche",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Wholemeal",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Baguette",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Rye",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0147",
+    "prompt": "In conversations, you value…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Clarity",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Warmth",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Honesty",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Gentle tone",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Being understood",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0148",
+    "prompt": "What noodle style do you prefer?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Ramen",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Udon",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Pasta",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Soba",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Rice noodles",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0149",
+    "prompt": "When you’re upset, you tend to…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "State the issue",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Choose softer words",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Ask for a solution",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Keep it gentle",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Say what’s wrong directly",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0150",
+    "prompt": "Which soup would you choose on a cold day?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Miso",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Pumpkin",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Chicken noodle",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Tomato",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Pho",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "comfort"
+  },
+  {
+    "id": "q0151",
+    "prompt": "When conflict happens, you prefer…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Clear discussion",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Gentle discussion",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Direct talk",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Soft approach",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Calm clarity",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0152",
+    "prompt": "What snack do you avoid most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Overly sweet",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Too oily",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Too spicy",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Too salty",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Too dry",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0153",
+    "prompt": "When messaging, you usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Write short and clear",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Write warm and friendly",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Get to the point",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Add soft wording",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Be precise",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0154",
+    "prompt": "Which texture do you dislike?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Sticky",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Slimy",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Scratchy",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Gritty",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Squeaky",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "sensory"
+  },
+  {
+    "id": "q0155",
+    "prompt": "You feel respected when others are…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Clear",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Kind",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Honest",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Gentle",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Straightforward",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0156",
+    "prompt": "Which sound bothers you most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Chewing sounds",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Loud bass",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Alarm beeps",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Construction noise",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Crowd noise",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "sensory"
+  },
+  {
+    "id": "q0157",
+    "prompt": "If someone disappoints you, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Address it directly",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Approach gently",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Ask for change clearly",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Hint softly",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Say it calmly and clearly",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0158",
+    "prompt": "Which material do you like in your space?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Wood",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Glass",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Fabric",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Metal",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Ceramic",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "sensory"
+  },
+  {
+    "id": "q0159",
+    "prompt": "You prefer instructions that are…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Clear and direct",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Friendly and gentle",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Specific",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Encouraging",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Straightforward",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0160",
+    "prompt": "What pattern do you enjoy seeing?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Stripes",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Dots",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Checks",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Plain",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Floral",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0161",
+    "prompt": "When studying, what works best for you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Long quiet blocks",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Short mixed tasks",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "One task until done",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Switching tasks often",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Deep focus with a timer",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "focus_style"
+  },
+  {
+    "id": "q0162",
+    "prompt": "What outfit vibe makes you feel confident?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Minimal",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Sporty",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Classic",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Streetwear",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Soft comfy",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0163",
+    "prompt": "Which sounds most like you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "I focus best on one thing",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "I like variety to stay engaged",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "I prefer deep focus",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "I enjoy switching tasks",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "I do best with one priority",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "focus_style"
+  },
+  {
+    "id": "q0164",
+    "prompt": "Which shoes do you wear most often?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Sneakers",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Boots",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Loafers",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Sandals",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Running shoes",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0165",
+    "prompt": "When you start working, you usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Turn off distractions",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Open several tabs and explore",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Finish one thing first",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Bounce between tasks",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Work in focused sprints",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "focus_style"
+  },
+  {
+    "id": "q0166",
+    "prompt": "Which pet vibe do you like?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Dog",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Cat",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Rabbit",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Bird",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Fish",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0167",
+    "prompt": "Your ideal workday feels like…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "One main goal",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Many small tasks",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Deep work time",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Variety all day",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "A single clear priority",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "focus_style"
+  },
+  {
+    "id": "q0168",
+    "prompt": "Which plant would you happily keep?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Pothos",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Snake plant",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Monstera",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Peace lily",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Herbs",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "home"
+  },
+  {
+    "id": "q0169",
+    "prompt": "When you feel bored mid-task, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Stay with it until done",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Swap to a different task",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Take a focused break then return",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Switch activities immediately",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Reduce distractions",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "focus_style"
+  },
+  {
+    "id": "q0170",
+    "prompt": "How do you like to decorate your room?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Plants",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Posters",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Minimal items",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Cute figures",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Neutral tones",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0171",
+    "prompt": "To stay motivated, you prefer…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Clear focus blocks",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Mixing different tasks",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "One big target",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Variety and options",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Deep focus routine",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "focus_style"
+  },
+  {
+    "id": "q0172",
+    "prompt": "Which dessert texture do you prefer?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Creamy",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Crunchy",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Fluffy",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Icy",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Chewy",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "taste"
+  },
+  {
+    "id": "q0173",
+    "prompt": "When organising tasks, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Prioritise 1–2 items",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Keep many tasks moving",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Finish one before starting another",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Multitask",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Work in planned focus sessions",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "focus_style"
+  },
+  {
+    "id": "q0174",
+    "prompt": "What photo style do you take most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "People",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Food",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Nature",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "City",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Pets",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "aesthetic"
+  },
+  {
+    "id": "q0175",
+    "prompt": "In general, your attention is…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Deep and steady",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Quick and flexible",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Focused",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Easily shifting",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Best with one thing",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "focus_style"
+  },
+  {
+    "id": "q0176",
+    "prompt": "Where do you feel inspired?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Museum",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Nature",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "City streets",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Bookshop",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Cafe",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "creativity"
+  },
+  {
+    "id": "q0177",
+    "prompt": "If you have 30 minutes free, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Do one meaningful task",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Do several quick tasks",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Work deeply on one thing",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Jump between small tasks",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Focus on one priority",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "focus_style"
+  },
+  {
+    "id": "q0178",
+    "prompt": "Which writing tool do you prefer?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Mechanical pencil",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Fountain pen",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Ballpoint pen",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Marker",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Stylus",
+        "pole": null
+      }
+    ],
+    "allowsOther": true,
+    "kind": "observed",
+    "dimensionId": "tools"
+  },
+  {
+    "id": "q0179",
+    "prompt": "You feel proudest when you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Finish one important thing",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Get many things done",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Do deep work",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Handle lots of variety",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Stay focused",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "focus_style"
+  },
+  {
+    "id": "q0180",
+    "prompt": "Which tech item do you enjoy most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Laptop",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Tablet",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Phone",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Smartwatch",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Camera",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "tools"
+  },
+  {
+    "id": "q0181",
+    "prompt": "When you’re struggling, what do you do first?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Try to solve it alone",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Reach out to someone",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Think quietly first",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Ask for support early",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Work it out privately",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "care_style"
+  },
+  {
+    "id": "q0182",
+    "prompt": "What screen setup feels best?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Laptop only",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Laptop + monitor",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Two monitors",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Tablet + laptop",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Desktop",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "work_style"
+  },
+  {
+    "id": "q0183",
+    "prompt": "Which fits you better?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "I like handling things myself",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "I like asking for help",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "I process privately",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "I feel better with support",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "I rely on myself first",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "care_style"
+  },
+  {
+    "id": "q0184",
+    "prompt": "Which spending category do you enjoy most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Food",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Clothes",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Gadgets",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Experiences",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Home items",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "money"
+  },
+  {
+    "id": "q0185",
+    "prompt": "When you’re unwell or tired, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Rest quietly alone",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Tell someone you trust",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Handle it privately",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Ask for help",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Keep it to yourself",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "care_style"
+  },
+  {
+    "id": "q0186",
+    "prompt": "What do you want money to give you?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Freedom",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Comfort",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Security",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Experiences",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Time",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "values"
+  },
+  {
+    "id": "q0187",
+    "prompt": "When decisions feel heavy, you prefer…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Think alone",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Talk it out",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Research quietly",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Ask advice",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Keep it private first",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "care_style"
+  },
+  {
+    "id": "q0188",
+    "prompt": "What humour style do you like most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Dry",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Silly",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Sarcastic",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Wholesome",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Random",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "identity"
+  },
+  {
+    "id": "q0189",
+    "prompt": "If you make a mistake, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Reflect by yourself",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Talk to someone",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Fix it quietly",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Ask for guidance",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Work through it alone",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "care_style"
+  },
+  {
+    "id": "q0190",
+    "prompt": "What conversation do you enjoy most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Deep talks",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Light chats",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Practical talk",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Playful banter",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Quiet together",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "relationships"
+  },
+  {
+    "id": "q0191",
+    "prompt": "When you’re proud, you usually…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Keep it to yourself",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Share it with others",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Celebrate quietly",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Tell someone",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Enjoy it privately",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "care_style"
+  },
+  {
+    "id": "q0192",
+    "prompt": "What social activity do you enjoy?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Coffee chat",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Walk together",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Game night",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Cooking together",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Shopping",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "relationships"
+  },
+  {
+    "id": "q0193",
+    "prompt": "When you learn something new, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Teach yourself",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Ask questions often",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Use guides quietly",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Get help quickly",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Figure it out solo",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "care_style"
+  },
+  {
+    "id": "q0194",
+    "prompt": "How do you prefer to communicate?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "In person",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Text",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Call",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Voice note",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Email",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "communication"
+  },
+  {
+    "id": "q0195",
+    "prompt": "In general, you prefer support that is…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Minimal and independent",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Shared and collaborative",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Private",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "With people",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Self-driven",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "care_style"
+  },
+  {
+    "id": "q0196",
+    "prompt": "What helps you reset quickly?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Clean a small area",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Write a list",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Take a shower",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Go outside",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Make tea",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "regulation"
+  },
+  {
+    "id": "q0197",
+    "prompt": "When you feel overwhelmed, you…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Make a plan alone",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Call/message someone",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Take quiet time",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Ask for help",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Handle it privately",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "observed",
+    "dimensionId": "care_style"
+  },
+  {
+    "id": "q0198",
+    "prompt": "What type of rest do you need most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Sleep",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Mental quiet",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Social break",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Physical stillness",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Nature time",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "regulation"
+  },
+  {
+    "id": "q0199",
+    "prompt": "Your growth style is closer to…",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Independent progress",
+        "pole": "A"
+      },
+      {
+        "id": "o2",
+        "text": "Supported progress",
+        "pole": "B"
+      },
+      {
+        "id": "o3",
+        "text": "Self-led",
+        "pole": "A"
+      },
+      {
+        "id": "o4",
+        "text": "Team-supported",
+        "pole": "B"
+      },
+      {
+        "id": "o5",
+        "text": "Quiet self-improvement",
+        "pole": "A"
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "care_style"
+  },
+  {
+    "id": "q0200",
+    "prompt": "Which feeling do you chase most?",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Peace",
+        "pole": null
+      },
+      {
+        "id": "o2",
+        "text": "Joy",
+        "pole": null
+      },
+      {
+        "id": "o3",
+        "text": "Pride",
+        "pole": null
+      },
+      {
+        "id": "o4",
+        "text": "Connection",
+        "pole": null
+      },
+      {
+        "id": "o5",
+        "text": "Freedom",
+        "pole": null
+      }
+    ],
+    "allowsOther": false,
+    "kind": "claim",
+    "dimensionId": "values"
+  }
+]
