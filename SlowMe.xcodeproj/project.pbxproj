@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BEA0417F2F2C61390049AD74 /* Exceptions for "SlowMe" folder in "SlowMe" target */ = {
+		BE6F386A2F32FD0A00C6F582 /* Exceptions for "SlowMe" folder in "SlowMe" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -24,7 +24,7 @@
 		BEA041132F2C35B10049AD74 /* SlowMe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BEA0417F2F2C61390049AD74 /* Exceptions for "SlowMe" folder in "SlowMe" target */,
+				BE6F386A2F32FD0A00C6F582 /* Exceptions for "SlowMe" folder in "SlowMe" target */,
 			);
 			path = SlowMe;
 			sourceTree = "<group>";
